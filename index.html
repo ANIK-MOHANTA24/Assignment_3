@@ -27,7 +27,43 @@
 
   <header class="container mx-auto px-4 md:px-20 lg:px-30">
     <!-- nav for first bonus section -->
-    <nav></nav>
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-bold">
+              <li><a class="text-[#ff4240]">Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold text-[#131318]">Hockey’s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 font-bold">
+            <li><a class="text-[#ff4240]">Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end space-x-3 lg:space-x-6">
+          <a class="bg-[#fff]"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a class="btn bg-[#ff4240]">Get Ticket</a>
+        </div>
+      </div>
+    </nav>
+
     <!--carousel used for banner section -->
     <div class="mx-auto">
       <div class="carousel w-full py-4 md:py-8 lg:py-14>">
@@ -500,7 +536,7 @@
 
     <!-- Social Media container -->
     <div class="container mx-auto w-full">
-      <section class=" rounded-2xl my-12 py-10 lg:py-14 mx-auto w-full text-center space-y-5 bg-[#6a6a7f0b]">
+      <section class=" rounded-2xl my-12 py-10 lg:py-14 mx-auto w-full text-center space-y-5 bg-[#6a6a7f13]">
         <h2 class="text-xl lg:text-2xl font-extrabold text-[#131318]">Social Media</h2>
         <div class="space-x-5">
           <span><i class="fa-brands fa-twitter"></i></span><span><i class="fa-brands fa-facebook"></i></span><span><i
@@ -512,7 +548,7 @@
   </main>
 
   <footer
-    class="container mx-auto grid grid-cols-1 lg:grid-cols-3 mx-h-[550px] bg-[#131318] text-[#E1E1E199] py-[100px] px-[50px] lg:px-[100px] gap-10">
+    class="mx-auto grid grid-cols-1 lg:grid-cols-3 mx-h-[550px] bg-[#131318] text-[#E1E1E199] py-[100px] px-[50px] lg:px-[100px] gap-10">
     <!-- left part -->
     <div class=" text-center lg:text-start space-y-3">
       <h2 class="text-3xl font-extrabold text-[#fff]">Get In Touch</h2>
